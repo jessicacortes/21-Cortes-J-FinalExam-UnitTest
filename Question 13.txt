@@ -1,0 +1,12 @@
+﻿Question 13
+1. Extending the add method for StringCalculator class to cover the new requirements above.
+2. Write an entire Test class that focuses only on testing the new requirements (Extended Functionalities)
+
+
+Steps:
+1. Create a test class called StringCalculatorExtendedTests.
+1. Write some unit tests in StringCalculatorExtendedTests to test that the add method will throw an exception when a negative number is given and another test to check that numbers greater than 1000 are ignored.  These tests should fail at this point in time.
+2. Refactor the add method in StringCalculator to throw exception when the input is negative.
+3. Run tests in StringCalculatorExtendedTests.  The tests that check that the add method throws with negative input should now succeed.  If it doesn’t go back to step 2
+4. Refactor the add method to ignore input > 1000.
+5. Run tests in StringCalculatorExtendedTests.  The test should all succeed now.  If they don’t go back to step 4.
